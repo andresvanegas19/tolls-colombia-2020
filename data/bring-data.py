@@ -12,6 +12,6 @@ def download_recurse(url, name):
     with open(name, 'wb') as output:
         output.write(r.content)
 
-download_recurse(ani_tolls_2019, 'ani-peajes-2019.xls')
+# download_recurse(ani_tolls_2019, 'ani-peajes-2019.xls')
 download_recurse(ani_tolls, 'ani-peajes-2020.xls')
-download_recurse(estadistics, 'mapasyestadisticas-2020.csv')
+download_recurse(estadistics, 'mapas-y-estadisticas-2020.csv')
