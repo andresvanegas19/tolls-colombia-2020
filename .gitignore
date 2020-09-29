@@ -2,3 +2,5 @@ __pycache__
 env
 .ipynb_checkpoints/
 Untitled.ipynb
+node_modules
+.DS_Store

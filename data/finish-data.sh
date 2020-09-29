@@ -8,5 +8,6 @@ python3 clean-data.py
 rm -f ani-peajes-2020.xlsx hermes-2020.csv
 
 python3 upload-files.py
+node change-direction.js
 
 rm -f ani.json hermes.json service.json
